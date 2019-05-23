@@ -1,0 +1,51 @@
+.girlfeedback {
+  width: inherit;
+  background: linear-gradient(to bottom, #ff6699 0%, #ffcccc 100%);
+}
+
+@font-face {
+  font-family: "Lemon";
+  src: url("fonts/Lemon.ttf");
+}
+
+.congrats {
+  width: inherit;
+  text-align: center;
+  font-size: 80px;
+  color: white;
+  outline-width: thin;
+  font-family: 'Lemon';
+}
+
+.iamfeedback {
+  text-align: center;
+}
+
+#F1 {
+  width: 30%;
+}
+
+div[data-role='page'] {
+  text-align: center;
+}
+
+#ghappy {
+  width: 90%;
+}
+
+.gsad {
+  width: 40%;
+}
+
+/*CSS FOR QUESTIONS*/
+.girlquestion {
+  background: linear-gradient(to bottom, #ffcccc 0%, #ff99cc 100%);
+}
+
+.qs {
+  text-align: right;
+}
+
+.questions {
+  width: inherit;
+}

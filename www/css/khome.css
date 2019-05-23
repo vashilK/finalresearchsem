@@ -1,0 +1,225 @@
+
+    #Klogout {
+      left: 400px;
+    }
+
+    h9 {
+      position: relative;
+      top: -20px;
+      font-weight: lighter;
+    }
+
+    .Ktitl {
+      font-size: 14px;
+      font-weight: lighter;
+      color: hsl(0, 0%, 50%);
+    }
+
+    #Ktitl1 {
+      text-align: left;
+    }
+
+    #Ktitl2 {
+      text-align: left;
+      margin-left: 220px;
+    }
+
+    #Khrs {
+      position: relative;
+      top: 20px;
+      left: -280px;
+    }
+
+    #Klevel {
+      position: relative;
+      top: 20px;
+      left: -45px;
+    }
+
+    #Kproseparator {
+      width: 470px;
+      position: relative;
+      top: 38px;
+      height: 2px;
+      background-color: grey;
+    }
+
+    #Kachievements {
+      position: relative;
+      top: 40px;
+      width: inherit;
+      height: 300px;
+      padding-top: 20px;
+    }
+
+    .ui-grid-c {
+      position: relative;
+      padding-top: 10px;
+      left: 20px;
+    }
+
+    /*UI HOMEPAGE*/
+    .demo-card-square.mdl-card {
+      width: 180px;
+      height: 140px;
+    }
+
+    #K1.demo-card-square>.mdl-card__title {
+      color: #fff;
+      background:
+        url('img/bookshelf.png') bottom right 15% no-repeat #BA68C8;
+    }
+
+    #K2.demo-card-square>.mdl-card__title {
+      color: #fff;
+      background:
+        url('img/dossier.png') bottom right 15% no-repeat #4DB6AC;
+    }
+
+    #K3.demo-card-square>.mdl-card__title {
+      color: #fff;
+      background:
+        url('img/blog.png') bottom right 15% no-repeat #EC407A;
+    }
+
+    #K4.demo-card-square>.mdl-card__title {
+      color: #fff;
+      background:
+        url('img/b.png') bottom right 15% no-repeat #FFEE58;
+    }
+
+    #K5.demo-card-square>.mdl-card__title {
+      color: #fff;
+      background:
+        url('img/book.png') bottom right 15% no-repeat #5C6BC0;
+    }
+
+    #K6.demo-card-square>.mdl-card__title {
+      color: #fff;
+      background:
+        url('img/reading.png') bottom right 15% no-repeat #9CCC65;
+    }
+
+    #Kred.ui-grid-a,
+    #Kred1.ui-grid-a,
+    #Kred2.ui-grid-a {
+      align-items: center;
+      text-align: center;
+      position: relative;
+      padding-top: 22px;
+      padding-left: 20px;
+    }
+
+    .ui-block-a .Ke,
+    .ui-block-b .ke {
+      padding: 5px;
+    }
+
+    /**Sticks the footer to the bottom of the page */
+    [data-role=page] {
+      height: 100% !important;
+      position: relative !important;
+    }
+
+    [data-role=footer] {
+      bottom: 0;
+      position: absolute !important;
+      top: auto !important;
+      width: 100%;
+    }
+
+    /** PREASSESMENT STYLE */
+    .foto {
+
+      border: 7px solid #DCDCDC;
+      margin: 0 auto;
+      width: 300px;
+      border-radius: 10px;
+
+
+    }
+
+    .foto img {
+      width: 100%;
+      height: 300px;
+
+
+    }
+
+    .hd-cent {
+      text-align: center;
+    }
+
+    div.quest {
+      padding: 5px;
+      text-align: center;
+
+    }
+
+    .easy {
+      height: 10px;
+      background-color: #6CFF33;
+      bottom: 0;
+      position: absolute !important;
+      top: auto !important;
+      width: 100%;
+    }
+
+    .medium {
+      height: 10px;
+      background-color: #F5B041;
+      bottom: 0;
+      position: absolute !important;
+      top: auto !important;
+      width: 100%;
+    }
+
+    .hard {
+      height: 10px;
+      background-color: red;
+      bottom: 0;
+      position: absolute !important;
+      top: auto !important;
+      width: 100%;
+    }
+
+    /*APTITUDE TEST PAGE*/
+    @font-face {
+      font-family: "AdventPro";
+      src: url("css/fonts/AlexBrush.ttf");
+    }
+
+    #testresults {
+      background: linear-gradient(to top, #99ccff -15%, #ffcccc 100%);
+    }
+
+    #resmaster {
+      text-align: center;
+    }
+
+    #aptres {
+      font-family: 'AdventPro';
+      font-style: normal;
+      font-size: 80px;
+      border: none;
+    }
+
+    #containercircle {
+      margin: 20px;
+      width: 200px;
+      height: 200px;
+      left: 65px;
+      position: relative;
+    }
+
+    #resadvance {
+      width: 30%;
+    }
+
+    #VB6,
+    #VB7,
+    #VB8,
+    #VB9,
+    #VB10 {
+      display: none;
+    }

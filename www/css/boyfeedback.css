@@ -1,0 +1,47 @@
+.boyfeedback {
+  width: inherit;
+  background: linear-gradient(to bottom, #0066cc 0%, #66ccff 100%);
+}
+
+@font-face {
+  font-family: "Lemon";
+  src: url("fonts/Lemon.ttf");
+}
+
+.congrats {
+  width: inherit;
+  text-align: center;
+  font-size: 80px;
+  color: white;
+  outline-width: thin;
+  font-family: 'Lemon';
+  position: relative;
+}
+
+.iamfeedback {
+  text-align: center;
+}
+
+#F1 {
+  width: 30%;
+}
+
+div[data-role='page'] {
+  text-align: center;
+}
+
+.bhappy {
+  width: 33%;
+}
+/*CSS FOR QUESTIONS*/
+.qs {
+  text-align: right;
+}
+
+.questions {
+  width: inherit;
+}
+
+.gsad{
+  width: 40%;
+}
