@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.phonegap.helloworld" version="5.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>English Ai Companion</name>
+    <description>
+        Ai Application to help students learn english as a second language. 
+    </description>
+  <platform name="android">
+    <icon src="img/logo.png" platform="android" width="64" height="64" density="ldpi" />
+  </platform>
+    <author email="Kissoonvashil@gmail.com">
+        Kissoon Neeschal
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+</widget>
